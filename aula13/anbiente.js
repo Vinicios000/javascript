@@ -1,5 +1,10 @@
 c = 1
-do{
+/*do{
     console.log(`passo ${c}`)
     c++
-}while(c <= 10)
+}while(c <= 10)*/
+
+while(c <= 10){
+    console.log(`passo ${c}`)
+    c++
+}
