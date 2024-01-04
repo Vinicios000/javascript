@@ -18,6 +18,16 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.255);
     
  }
+ div{
+   text-align: center;
+   padding: 8px;
+   color: black;
+ }
+ img#imagem{
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+ }
  footer{
     color: white;
     text-align: center;
