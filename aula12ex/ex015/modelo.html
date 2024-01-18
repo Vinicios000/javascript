@@ -13,10 +13,29 @@
     </header>
     <section >
         <div >
-            <p>Ano de nascimento.</p>
+            <p>
+                <label for="iano">Ano de nascimento:</label>
+                <input type="number" name="ano" id="iano" required min="1900">
+            </p>
+
+            <p> Sexo:
+
+                <input type="radio" name="sex" id="imas" checked>
+                <label for="imas">Masculino</label >
+
+                <input type="radio" name="sex" id="ifem">
+                <label for="ifem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="Verifiicar" onclick="verificar()">
+            </p>
+          
 
         </div>
         <div id="res">
+            prencha os dados acima para ver o resultado.
+            <!-- <img src="" alt=""> -->
 
         </div>
 
